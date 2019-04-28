@@ -1,0 +1,1 @@
+The assignment for this mini-project is to deconstruct the Google.com homepage and reconstruct it using HTML and CSS. This is an exercise in build/layout, thus the forms and links are "dead".
