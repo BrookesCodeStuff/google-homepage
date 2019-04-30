@@ -6,28 +6,42 @@
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
   </head>
   <body>
-    <nav class="nav-bar" id="top-nav-bar">
-      <a href="#">About</a>
-      <a href="#">Store</a>
-      <a href="#">Gmail</a>
-      <a href="#">Images</a>
-      <a href="#"><img id="apps" src="./images/google-apps.png" /></a>
-      <a href="#"><img id="user-photo" src="./images/photo.jpg" /></a>
-    </nav>
-    <div>
-      <img src="./images/google-logo.png" id="logo">
-      <input />
-      <button id="search-button">Google Search</button>
-      <button id="lucky-button">I'm Feeling Lucky</button>
-    </div>
-    <footer>
-      <nav class="nav-bar" id="bottom-nav-bar">
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
-      </nav>
-    </footer>
+    <div id="page-container">
+      <div id="content-wrapper">
+        <nav class="nav-bar" id="top-nav-bar">
+          <div class="nav-left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+          </div>
+          <div class="nav-top-right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#"><img id="apps" src="./images/google-apps.png" /></a>
+            <a href="#"><img id="user-photo" src="./images/photo.jpg" /></a>
+          </div>
+        </nav>
+        <div class="search-container">
+          <img src="./images/google-logo.png" id="logo">
+          <input />
+          <div>
+            <button id="search-button">Google Search</button>
+            <button id="lucky-button">I'm Feeling Lucky</button>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <nav class="nav-bar" id="bottom-nav-bar">
+          <div class="nav-left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+          </div>
+          <div class="nav-bottom-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+          </div>
+        </nav>
+      </footer>
+  </div>
   </body>
 </html>
