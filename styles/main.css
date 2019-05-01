@@ -1,3 +1,4 @@
+/* Global Styling */
 body {
   font-family: 'Arial', 'Helvetica', sans-serif;
   font-size: 13px;
@@ -12,13 +13,6 @@ body {
   padding-bottom: 2.5rem;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-}
-
 a {
   color: #000;
   text-decoration: none;
@@ -29,12 +23,17 @@ a:hover {
   text-decoration: underline;
 }
 
-#apps {
-  width: 30px;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background: #f2f2f2;
+  border: 1px solid #e4e4e4;
 }
 
-#user-photo {
-  border-radius: 50%;
+/* Nav Styling */
+#apps {
   width: 30px;
 }
 
@@ -57,24 +56,37 @@ a:hover {
   align-items: center;
 }
 
-#logo {
-  margin-top: 189px;
-  height: 92px;
-}
-
-footer {
-  bottom: 0px;
-  background: #f2f2f2;
-  border: 1px solid #e4e4e4;
-}
-
 .nav-bottom-right {
   float: right;
 }
 
+/* Search Styling */
 .search-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
+#logo {
+  margin-top: 189px;
+  height: 92px;
+}
+
+input {
+  width: 582px;
+  line-height: 44px;
+  margin: 15px;
+  border-radius: 24px;
+  border: 1px solid #e4e4e4;
+}
+
+input:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0); 
+}
+
+
+
+
+
