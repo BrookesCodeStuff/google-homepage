@@ -7,6 +7,7 @@ body {
 #page-container {
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 #content-wrapper {
@@ -56,6 +57,10 @@ footer {
 
 .nav-bottom-left {
   float: left;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: 2px 12px;
 }
 
 .nav-top-right {
@@ -68,19 +73,24 @@ footer {
 
 .nav-bottom-right {
   float: right;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: 2px 12px;
 }
 
 #signin-btn {
-  background: #4386fa;
+  background: #4285f4;
   color: white;
   padding: 8px 12px;
   border-radius: 2px;
   font-weight: bold;
   text-decoration: none;
+  opacity: 1.0;
 }
 
 #signin-btn:hover {
-
+  box-shadow: #4386fa;
 }
 
 /* Search Styling */
@@ -123,6 +133,7 @@ input:hover {
   padding: 0 16px;
   text-align: center;
   font-size: 14px;
+  font-family: Arial, sans-serif
 }
 
 .btn:hover {
